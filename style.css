@@ -1,0 +1,290 @@
+body{
+      font-family: ariel;
+      margin: 0px;
+      text-align: center;
+      background-size: cover;
+      background-position:center;
+      background-color: darkgrey
+   }
+header{
+   background-color:white ;
+}
+   a :link{
+      
+      color:  white;
+   }
+   a:hover{
+      color: white;
+   }
+   a: active{
+      color:black;
+   }
+   nav a: visited{
+      color: white;
+
+   }
+   
+   nav{
+      border-top: 2px darkgrey;
+   }
+   nav{
+   bottom-top: 2px; 
+   border-bottom: 2px ;
+   padding: 3px;
+   background color: darkgrey;
+}
+   nav ul{
+      list-style: none;
+      background-color: rgb(0, 0, 0, 0.75);;
+      text-align: center;
+      padding: 0;
+      margin: 0 auto;
+      font-size: 1em;
+   }
+   nav li{
+      display: inline-block;
+   }
+   nav{
+      border-top: 2px black;
+   }
+   nav a{
+      text-decoration: none;
+      color: #fff;
+      width: 100px;
+      display: block;
+      padding: 15px;
+      font size: 15px;
+      text-align: center;
+   }
+   nav a: hover{
+      background: white;
+   }
+   nav a:hover{
+   color: #404040
+}
+   main{
+      max-width: 1000px;
+      margin: 0 auto;
+      color: white;
+      background-color: darkgrey;
+   }
+.welcomepadding{
+   padding-top: 40px;
+}
+.aboutme{
+   padding-bottom: 50px;
+
+}
+
+.heading{
+   color: white;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   font-size: 20px;
+}
+.nav-links a{
+   color: darkgrey;
+   text-decoration: none;
+   letter-spacing: 3px;
+   font-weight: bold;
+   font-size: 4px;
+   padding: 14px, 16px;
+
+}
+.col-sm-8{
+   padding-left: 100px;
+}
+h2{
+   font-weight: 600;
+}
+.home-photo{
+   max-width: 65%;
+   max-height: 75%;
+   padding-right: 15px;
+   padding-bottom: 15px;
+   float: left;
+   }
+   footer{
+    text-align: center;
+    background-color: darkgrey;
+    border-top: 1px #EBA312;
+    padding: 10px;
+    text-decoration: none;
+    color: #221811;
+ }
+   h1{
+      text-decoration: underline;
+      text-align: center;
+      font-size: 4em;
+   }
+   
+   footer{
+      clear: both;
+      text-align: center;
+      border-top: 1px #cccccc;
+      padding: 10px;
+   }
+   /* JavaScript Game changes for mobile */
+.mobile{
+   display:none;
+}
+@media only screen and (max-width: 768px){
+   .desktop{
+      display:none;
+   }
+   .mobile{
+      display: block;
+      touch-action: manipulation;
+   }
+}
+
+.game{
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.game-controls{
+   text-align:center;
+   padding: 5px;
+}
+
+footer{
+   background-color: rgb(0, 0, 0, 0.75);
+   text-align: center;
+   border-top: 1px solid grey;
+   padding: 10px;
+   clear: both;
+   color: white;
+}
+
+footer:link{
+   color:white;
+}
+footer a {
+  color: white;
+}
+
+}
+img {
+  display: block;
+  max-width: 200%;
+  height: auto; 
+  padding-left: 40px;
+}
+
+iframe{
+   height: 400px;
+   width: 100%;
+   padding-top: 5px;
+}
+
+
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.index-list {
+  list-style: disc inside;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+#resume {
+ background-color: darkgrey;
+ box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.resumetext{
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: grey;
+  padding-bottom: 5px;
+
+}
+
+
+i{
+   color: darkgrey;
+}
+a:visited {
+    color: white;
+}
+
+
+   /*CSS without a media query--applies to all sizes unless overridden*/
+   h1{
+      font-size: 4em;
+ }
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+      h1{
+      font-size: 1.8em;
+   }
+   /* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+   h1{
+      font-size: 1.5em;
+   }
+}
+.logo{
+margin: 0 auto;
+display:block;
+}
+
+
+img{
+   float:left;
+   margin:0;
+}
+.img-fluid{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+li{
+   list-style: none;
+   text-align: center;
+}
+ul{
+   text-align: center;
+}
+.contact-info {
+  text-align: center;
+}
+<style>
+    body {
+      text-align: center;
+    }
+    h3 {
+      text-align: left;
+    }
+    p {
+      text-align: left;
+    }
+    h2{
+      text-align: justify;
+    }
+    li{
+      text-align: justify;
+    }
+  </style>
